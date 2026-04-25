@@ -5,7 +5,7 @@ function App() {
   const [formIsActivated,setFormIsActivated]=useState(false)
   
   return (
-    <>
+    <div className="flex">
       <SideBar 
          formIsActivated={formIsActivated}
          setFormIsActivated={setFormIsActivated}
@@ -15,7 +15,7 @@ function App() {
       setFormIsActivated={setFormIsActivated}
       />
 
-    </>
+    </div>
   );
 }
 
